@@ -23,7 +23,9 @@
     />
 
     <!-- Link CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css" />
+
   </head>
   <body>
     <!--Navbar-->
@@ -57,27 +59,30 @@
        <div class="row justify-content-center mt-5">
            <div class="col-md-6">
             <div class="input-group mb-3 shadow">
-                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <span class="input-group-text" id="basic-addon2">@example.com</span>
+                <input type="text" class="form-control" placeholder="Serch task" aria-label="Serch task" aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2">
+                  <i class="fas fa-search"></i></span>
               </div>
            </div>
        </div> 
      <!--Card Section-->  
        <section>
-           <div class="row">
+           <div class="row ">
                <!---Card-1-->
                <div class="col-md-6 col-lg-4">
-                <div class="card text-center">
-                    <div class="card-header">
-                      Featured
+                <div class="card text-center m-3">
+                    <div class="card-header d-flex justify-content-end gap-2">
+                      <button type="button" class="btn btn-outline-success"><i class="fas fa-pencil-alt"></i></button>
+                      <button type="button" class="btn btn-outline-danger"><i class="fas fa-trash-alt"></i></button>
                     </div>
+                    <img src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Special title treatment</h5>
                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                     <div class="card-footer text-muted">
-                      2 days ago
+                      <button type="button" class="btn btn-outline-primary float-end">Open Task</button>
                     </div>
                   </div>
                </div>
@@ -85,39 +90,41 @@
                <!---Card-2-->
 
                <div class="col-md-6 col-lg-4">
-                <div class="card text-center">
-                    <div class="card-header">
-                      Featured
+                <div class="card text-center  m-3">
+                    <div class="card-header d-flex justify-content-end gap-2">
+                      <button type="button" class="btn btn-outline-success"><i class="fas fa-pencil-alt"></i></button>
+                      <button type="button" class="btn btn-outline-danger"><i class="fas fa-trash-alt"></i></button>
                     </div>
+                    <img src="https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Special title treatment</h5>
                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                     <div class="card-footer text-muted">
-                      2 days ago
+                      <button type="button" class="btn btn-outline-primary float-end">Open Task</button>
                     </div>
                   </div>
                </div>
 
                <!---Card-3-->
-
                <div class="col-md-6 col-lg-4">
-                <div class="card text-center">
-                    <div class="card-header">
-                      Featured
+                <div class="card text-center  m-3">
+                    <div class="card-header d-flex justify-content-end gap-2">
+                      <button type="button" class="btn btn-outline-success"><i class="fas fa-pencil-alt"></i></button>
+                      <button type="button" class="btn btn-outline-danger"><i class="fas fa-trash-alt"></i></button>
                     </div>
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Special title treatment</h5>
                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                     <div class="card-footer text-muted">
-                      2 days ago
+                      <button type="button" class="btn btn-outline-primary float-end">Open Task</button>
                     </div>
                   </div>
                </div>
-           </div>
            
        </section>
       </div>
